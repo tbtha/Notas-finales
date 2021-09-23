@@ -20,15 +20,18 @@ var notaJsTres = (parseInt(notaJsUno) + parseInt(notaJsDos) + 12 ) /3;
 
 document.write( `
 <div class='container'>
+    <div class='pt-4 pb-3'>
          <h1>Notas finales</h1>
             <div>
                <span class="fw-bold">Nombre: </span>
                 <span>${nombre} ${ apellido}</span>
             </div>
             <div>
-                <span class="fw-bold">Carrera: </span>
+                <span class="fw-bold">Carrera  : </span>
                 <span>${carrera}</span>
             </div>
+    </div>
+
     <table class='table'>
     <thead class='table-dark'>
         <tr>
